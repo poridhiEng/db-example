@@ -10,3 +10,5 @@ services:
       MONGO_INITDB_ROOT_PASSWORD: example
     ports:
       - "27017:27017"
+# mongodb://root:example@localhost:27017
+# mongodb://username:password@localhost:27017
